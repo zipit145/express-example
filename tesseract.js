@@ -1,15 +1,10 @@
-const tesseract = require("node-tesseract-ocr")
+const Tesseract = require("tesseract.js")
  
-const config = {
-  lang: "eng",
-  oem: 1,
-  psm: 3,
-}
- 
-tesseract.recognize("image.jpg", config)
-  .then(text => {
-    console.log("Result:", text)
+Tesseract.recognize(
+    'https://tesseract.projectnaptha.com/img/eng_bw.png',
+    'eng',
+    { logger: m => console.log(m) }
+  ).then(({ data: { text } }) => {
+    console.log(text);
   })
-  .catch(error => {
-    console.log(error.message)
-})
+  
