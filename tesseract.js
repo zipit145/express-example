@@ -6,10 +6,10 @@ Tesseract.recognize(
     'https://tesseract.projectnaptha.com/img/eng_bw.png',
     'eng',
     { logger: m => console.log(m) }
-    ).then(({ data: { text } }) => {
+    ).then(({ data: { words } }) => {
     let result;
-    console.log(text);
-    result = text;
+    console.log(words);
+    result = words;
     exports.result = result;
 })
 

@@ -12,8 +12,10 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "knex": "^0.21.2",
     "morgan": "~1.9.1",
     "node-tesseract-ocr": "^2.0.0",
+    "pg": "^8.3.0",
     "tesseract.js": "^2.1.1"
   }
 }
