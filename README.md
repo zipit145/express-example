@@ -14,9 +14,12 @@ Build a basic express.js tesseract optical character recognition server.
 - Tesseract.js
 - PostgreSQL
 
+## Usage
+Preferred path: https://tesseract.projectnaptha.com/img/eng_bw.png
+
 ## Status
 - Limit my time spent on this to 8 hours or less (complete)
 - Add database postgresql knex database (complete)
 - Create a basic get route for storing match information (complete)
 - Create a post route that inititates tesseract recognize (complete)
-- Store this result in the database (incomplete)
+- Store this result in the database (complete)
