@@ -24,6 +24,11 @@ Sample POST body:
     "lang": "eng"
 }
 
+Useful Commands:
+- ```knex migrate:latest```
+- ```knex migrate:rollback```
+- ```knex seed:run```
+
 ## Status
 - Limit my time spent on this to 8 hours or less (complete)
 - Add database postgresql knex database (complete)
