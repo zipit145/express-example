@@ -5,9 +5,9 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('ocrmatches').insert([
-        {id: 1, matches: 'rowValue1'},
-        {id: 2, matches: 'rowValue2'},
-        {id: 3, matches: 'rowValue3'}
+        {matches: 'rowValue1'},
+        {matches: 'rowValue2'},
+        {matches: 'rowValue3'}
       ]);
     });
 };

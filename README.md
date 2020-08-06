@@ -8,6 +8,12 @@ Build a basic express.js tesseract optical character recognition server.
 - Create a post route that inititates tesseract recognize
 - Store this result in the database
 
+## Tech Used
+- Express.js
+- Knex.js
+- Tesseract.js
+- PostgreSQL
+
 ## Status
 - Limit my time spent on this to 8 hours or less (complete)
 - Add database postgresql knex database (complete)

@@ -11,10 +11,8 @@ module.exports = {
             lang,
             { logger: m => console.log(m) }
             ).then(({ data: { words } }) => {
-            let result;
-            console.log(words);
-            result = words;
-            exports.result = result;
-        })
+                let result = {"matches" : words[0].block.text.substr(0,200)}
+                return database('ocrmatches').insert(result)
+            })
     }
 }
