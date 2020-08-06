@@ -7,6 +7,9 @@ Build a basic express.js tesseract optical character recognition server.
 - Create a basic get route for storing match information
 - Create a post route that inititates tesseract recognize
 - Store this result in the database
+- Clean up boilerplate code from express, variable declarations, and general file structure
+- Add unit tests
+- Add search term to Tesseract function and change data structure to store arrays of results coordinates for image manipulations
 
 ## Tech Used
 - Express.js
@@ -15,7 +18,11 @@ Build a basic express.js tesseract optical character recognition server.
 - PostgreSQL
 
 ## Usage
-Preferred path: https://tesseract.projectnaptha.com/img/eng_bw.png
+Sample POST body:
+{
+    "path": "https://tesseract.projectnaptha.com/img/eng_bw.png",
+    "lang": "eng"
+}
 
 ## Status
 - Limit my time spent on this to 8 hours or less (complete)
@@ -23,3 +30,6 @@ Preferred path: https://tesseract.projectnaptha.com/img/eng_bw.png
 - Create a basic get route for storing match information (complete)
 - Create a post route that inititates tesseract recognize (complete)
 - Store this result in the database (complete)
+- Clean up boilerplate code from express, variable declarations, and general file structure (incomplete)
+- Add unit tests (incomplete)
+- Add search term to Tesseract function and change data structure to store arrays of results coordinates for image manipulations (incomplete)
