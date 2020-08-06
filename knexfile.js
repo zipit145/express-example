@@ -4,12 +4,12 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgresql://localhost/'
+    connection: 'postgresql://localhost/express-ocr-example'
   },
 
   production: {
     client: 'pg',
-    connection: 'postgresql://localhost/',
+    connection: 'postgresql://localhost/express-ocr-example',
   }
 
 };
